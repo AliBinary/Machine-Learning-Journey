@@ -1,0 +1,104 @@
+# ==================================================
+# Python
+# ==================================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# ==================================================
+# Jupyter Notebook
+# ==================================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ==================================================
+# Data (KEEP datasets)
+# ==================================================
+# Raw datasets are allowed
+# Only ignore temporary or generated data
+processed_data/
+interim_data/
+temp_data/
+
+# Ignore very large raw files (optional safety)
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# ==================================================
+# Models & checkpoints
+# ==================================================
+models/
+checkpoints/
+*.pkl
+*.joblib
+*.sav
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# ==================================================
+# Logs & outputs
+# ==================================================
+logs/
+*.log
+outputs/
+results/
+figures/
+plots/
+
+# ==================================================
+# Experiment tracking
+# ==================================================
+mlruns/
+wandb/
+wandb_run*
+tensorboard/
+runs/
+
+# ==================================================
+# Streamlit
+# ==================================================
+.streamlit/secrets.toml
+
+# ==================================================
+# OS / Editor
+# ==================================================
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==================================================
+# Environment & secrets
+# ==================================================
+.env
+.env.*
+*.key
+*.pem
+secrets.*
+
+# ==================================================
+# Cache
+# ==================================================
+.cache/
+.pytest_cache/
+.mypy_cache/
