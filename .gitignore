@@ -58,6 +58,7 @@ checkpoints/
 logs/
 *.log
 outputs/
+**/Output/
 results/
 figures/
 plots/
